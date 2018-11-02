@@ -14,4 +14,4 @@ RUN go install github.com/knative/docs/helloworld
 ENTRYPOINT /go/bin/helloworld
 
 # Document that the service listens on port 8080.
-EXPOSE 8080
+EXPOSE 8088
